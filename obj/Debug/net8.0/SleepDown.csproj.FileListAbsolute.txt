@@ -1,0 +1,14 @@
+/home/gadiel/Documents/SleepDown/obj/Debug/net8.0/SleepDown.GeneratedMSBuildEditorConfig.editorconfig
+/home/gadiel/Documents/SleepDown/obj/Debug/net8.0/SleepDown.AssemblyInfoInputs.cache
+/home/gadiel/Documents/SleepDown/obj/Debug/net8.0/SleepDown.AssemblyInfo.cs
+/home/gadiel/Documents/SleepDown/obj/Debug/net8.0/SleepDown.csproj.CoreCompileInputs.cache
+/home/gadiel/Documents/SleepDown/bin/Debug/net8.0/SleepDown
+/home/gadiel/Documents/SleepDown/bin/Debug/net8.0/SleepDown.deps.json
+/home/gadiel/Documents/SleepDown/bin/Debug/net8.0/SleepDown.runtimeconfig.json
+/home/gadiel/Documents/SleepDown/bin/Debug/net8.0/SleepDown.dll
+/home/gadiel/Documents/SleepDown/bin/Debug/net8.0/SleepDown.pdb
+/home/gadiel/Documents/SleepDown/obj/Debug/net8.0/SleepDown.dll
+/home/gadiel/Documents/SleepDown/obj/Debug/net8.0/refint/SleepDown.dll
+/home/gadiel/Documents/SleepDown/obj/Debug/net8.0/SleepDown.pdb
+/home/gadiel/Documents/SleepDown/obj/Debug/net8.0/SleepDown.genruntimeconfig.cache
+/home/gadiel/Documents/SleepDown/obj/Debug/net8.0/ref/SleepDown.dll
