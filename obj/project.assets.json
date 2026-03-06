@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/gadiel/.nuget/packages/": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/gadiel/Documents/SleepDown/SleepDown.csproj",
+      "projectUniqueName": "/home/gadiel/Documents/Code/SleepDown/SleepDown.csproj",
       "projectName": "SleepDown",
-      "projectPath": "/home/gadiel/Documents/SleepDown/SleepDown.csproj",
-      "packagesPath": "/home/gadiel/.nuget/packages/",
-      "outputPath": "/home/gadiel/Documents/SleepDown/obj/",
+      "projectPath": "/home/gadiel/Documents/Code/SleepDown/SleepDown.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/home/gadiel/Documents/Code/SleepDown/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/gadiel/.nuget/NuGet/NuGet.Config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

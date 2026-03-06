@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ox4uQJeS0z+1wR6vy5/cXX7EDE4CbNeq0QlDA9Yt9vjFlI1rtdrKSPsotzewOWPhbmbB4PY05AeY5Cm516wcUA==",
+  "dgSpecHash": "kxZ49EDHu9s0p/ZdL3WWvx6dtf/b1CFZfHyElquMmgu24eW8Aumd++bgsagCy5EDcQmNxsUEL5T2R4jCK+/U+w==",
   "success": true,
-  "projectFilePath": "/home/gadiel/Documents/SleepDown/SleepDown.csproj",
+  "projectFilePath": "/home/gadiel/Documents/Code/SleepDown/SleepDown.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
