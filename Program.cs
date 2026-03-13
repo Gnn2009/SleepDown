@@ -20,7 +20,7 @@ namespace SleepDown
 
             Console.Clear();
             Console.WriteLine($"El dispositivo se apagara en {minutos} minutos");
-            Process.Start("shutdown", "+" + entrada);
+            Process.Start("sudo", $"shutdown -h +{minutos}");
 
             string? cancelar;
             do
@@ -28,7 +28,7 @@ namespace SleepDown
                 Console.WriteLine("Si quieres cancelar escribe o pega -cancelar-");
                 cancelar = Console.ReadLine()?.ToLower();
             } while (cancelar != "cancelar");
-            Process.Start("shutdown", "-c");
+            Process.Start("sudo", "killall shutdown");
         }
     }
 }
