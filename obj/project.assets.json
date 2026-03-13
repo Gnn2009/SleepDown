@@ -8,7 +8,7 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {}
+    "/home/gadiel/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -16,11 +16,11 @@
       "projectUniqueName": "/home/gadiel/Documents/Code/SleepDown/SleepDown.csproj",
       "projectName": "SleepDown",
       "projectPath": "/home/gadiel/Documents/Code/SleepDown/SleepDown.csproj",
-      "packagesPath": "/root/.nuget/packages/",
+      "packagesPath": "/home/gadiel/.nuget/packages/",
       "outputPath": "/home/gadiel/Documents/Code/SleepDown/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "/home/gadiel/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.124/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.125/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

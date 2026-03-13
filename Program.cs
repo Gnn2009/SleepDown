@@ -1,34 +1,34 @@
-using System;
 using System.Diagnostics;
+
 namespace SleepDown
 {
     class Program
     {
         static void Main()
         {
+            string? entrada;
+            int minutos;
             Console.WriteLine("¿En cuanto tiempo quieres que se apague el dispositivo?");
-            string entrada = Console.ReadLine();
-            while (!int.TryParse(entrada, out int minutos))
+            do
             {
-                Console.WriteLine("Porfavor introduce un valor numerico");
                 entrada = Console.ReadLine();
-            }
-            ;
+                if (!int.TryParse(entrada, out minutos))
+                {
+                    Console.WriteLine("Profavor introdusca un valor numerico");
+                }
+            } while (minutos <= 0);
+
             Console.Clear();
-            Console.WriteLine("El dispositivo se apagara en " + entrada + " minutos");
+            Console.WriteLine($"El dispositivo se apagara en {minutos} minutos");
             Process.Start("shutdown", "+" + entrada);
 
-            Console.WriteLine("Si quieres cancelar escribe o pega -cancelar- ");
-            string cancelar = Console.ReadLine().ToLower();
-            while (cancelar != "cancelar")
+            string? cancelar;
+            do
             {
-                Console.Clear();
                 Console.WriteLine("Si quieres cancelar escribe o pega -cancelar-");
-                cancelar = Console.ReadLine().ToLower();
-            }
-            ;
+                cancelar = Console.ReadLine()?.ToLower();
+            } while (cancelar != "cancelar");
             Process.Start("shutdown", "-c");
-
         }
     }
 }
