@@ -1,0 +1,23 @@
+## Build Results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+## IDE and Editor configurations
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
